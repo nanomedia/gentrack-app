@@ -12,9 +12,9 @@ namespace GentrackApp.Tests.UnitTests
         public void StartProcessSuccess()
         {
             var currentDirectory = Environment.CurrentDirectory;
-            //var currentFilePath = Path.Combine(currentDirectory, $"testfile.xml");
+            var currentFilePath = Path.Combine(currentDirectory, $"testfile.xml");
 
-            var currentFilePath = Path.Combine(currentDirectory, $"testfileWithIssues.xml");
+            //var currentFilePath = Path.Combine(currentDirectory, $"testfileWithIssues.xml");
 
             DocumentProcessor.currentFilePath = currentFilePath;
             DocumentProcessor.destinationPath = "C:\\GentrackFiles";
@@ -26,8 +26,8 @@ namespace GentrackApp.Tests.UnitTests
         public void ValidateFile()
         {
             var currentDirectory = Environment.CurrentDirectory;
-            //var currentFilePath = Path.Combine(currentDirectory, $"testfile.xml");
-            var currentFilePath = Path.Combine(currentDirectory, $"testfileWithIssues.xml");
+            var currentFilePath = Path.Combine(currentDirectory, $"testfile.xml");
+            //var currentFilePath = Path.Combine(currentDirectory, $"testfileWithIssues.xml");
 
             DocumentProcessor.currentFilePath = currentFilePath;
             var response = DocumentProcessor.validateXmlDocument();
