@@ -1,0 +1,12 @@
+<ase:aseXML xmlns:ase="urn:aseXML:r32" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:aseXML:r32 http://www.nemmco.com.au/aseXML/schemas/r32/aseXML_r32.xsd">
+	<Transactions>
+		<Transaction  transactionID="HGL_161007_1124">
+			<MeterDataNotification version="r25">
+			
+				<ParticipantRole>
+					<Role>LR</Role>
+				</ParticipantRole>
+			</MeterDataNotification>
+		</Transaction>
+	</Transactions>
+</ase:aseXML>
