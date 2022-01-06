@@ -12,13 +12,10 @@ GentrackAppLib: the code of the solution
 
 Remember use Visual studio 2022
 
-1) what was done
+1) what was done: Everything
 
 
-Everything
-
-
-2)  what wasn't done
+2)  what wasn't done: 
 
 
 3) what would be done with more time
